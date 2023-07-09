@@ -1,5 +1,5 @@
 import styled from '@emotion/styled'
-import { useRecoilState, useRecoilValue } from 'recoil';
+import { useRecoilState } from 'recoil';
 import { projectState } from '../../recoil/atoms';
 import { useEffect, useRef } from 'react';
 

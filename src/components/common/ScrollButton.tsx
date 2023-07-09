@@ -1,7 +1,5 @@
-import { css } from '@emotion/react'
 import styled from '@emotion/styled'
 import React from 'react'
-import { RecoilState, RecoilValue } from 'recoil'
 
 interface ScrollButtonProps {
   children: React.ReactNode,

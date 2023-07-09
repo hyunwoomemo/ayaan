@@ -1,8 +1,9 @@
 import React, { useEffect } from 'react';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
-import Main from './pages/Main';
+import Portfolio from './pages/Portfolio';
 import GlobalStyle from './components/common/GlobalStyle';
 import { RecoilRoot } from 'recoil';
+import Image from './pages/Image';
 
 function App() {
 
@@ -11,7 +12,8 @@ function App() {
       <GlobalStyle />
       <Router>
         <Routes>
-          <Route path='/' element={<Main />}></Route>
+          <Route path='/' element={<Portfolio />}></Route>
+          <Route path='/image' element={<Image />}></Route>
         </Routes>
       </Router>
     </RecoilRoot>
